@@ -1,0 +1,12 @@
+{
+  "name": "@local/dsh-novel-mode",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "小说创作模式：逐章写作 + 每章暂停审阅 + 设定圣经上下文文件的 DSH agent preset",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
